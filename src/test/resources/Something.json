@@ -1,0 +1,36 @@
+db.Observe.aggregate([
+    {	$addFields:
+        {
+            "alpha": {$divide: [{$subtract: ["$Molar Mass", 1]}, {$add: ["$Molar Mass", 1]}]}
+        }
+    },
+    {   $addFields:
+        {
+            "Mean Lethargy Gain per Collision": {$add: [1, {$multiply: [{$divide: ["$alpha", {$subtract: [1, "$alpha"]}]}, {$ln:[ {$divide: [1,{$add: ["$alpha",0.001]}]}]}]}]}
+        }
+    },
+    {   $addFields:
+        {
+            "# Collisions to Thermalize": {$divide: [{$ln: {$divide: [2000000.0, 1.0]}}, "$Mean Lethargy Gain per Collision"]}
+        }
+    },
+    {	$addFields:
+        {
+            "Number Density": {$multiply: [0.6022, "$Mass Density"]}
+        }
+    }, 
+    {	$addFields:
+        {
+            "Moderating Power": {$multiply: ["$Mean Lethargy Gain per Collision", "$Scattering Micro CS"]}
+        }
+    },
+    {	$addFields:
+        {
+            "Moderating Ratio": {$divide: ["$Moderating Power", "$Absorption Micro CS"]}
+        }
+    },
+    {   $match:
+        { "Half Life": "Stable" } 
+    }
+    ]
+    )

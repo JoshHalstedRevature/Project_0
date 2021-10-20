@@ -1,0 +1,33 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\scalademos_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\Helpers$ImplicitObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\example\Helpers$ImplicitObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\Helpers$DocumentObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\example\Helpers$DocumentObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\ReadDemo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\example\ReadDemo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	q1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\q1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\File.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\example\File.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\MongoDBInstance.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\example\MongoDBInstance.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\Helpers.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\example\Helpers.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GFG.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\GFG.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GFG$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\GFG$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\Helpers$GenericObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\example\Helpers$GenericObservable.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\ReadDemo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\example\ReadDemo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\JSONData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\example\JSONData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	example\Helpers$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\example\Helpers$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	q1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\17577\Git_Files\project_0_files\target\scala-2.12\classes\q1$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

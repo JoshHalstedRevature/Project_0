@@ -1,0 +1,419 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root-test",
+        "directory": "C:\\Users\\17577\\Git_Files\\project_0_files",
+        "workspaceDir": "C:\\Users\\17577\\Git_Files\\project_0_files",
+        "sources": [
+            "C:\\Users\\17577\\Git_Files\\project_0_files\\src\\test\\scala-2.12",
+            "C:\\Users\\17577\\Git_Files\\project_0_files\\src\\test\\scala",
+            "C:\\Users\\17577\\Git_Files\\project_0_files\\src\\test\\java",
+            "C:\\Users\\17577\\Git_Files\\project_0_files\\target\\scala-2.12\\src_managed\\test"
+        ],
+        "dependencies": [
+            "root"
+        ],
+        "classpath": [
+            "C:\\Users\\17577\\Git_Files\\project_0_files\\.bloop\\root\\scala-2.12\\classes",
+            "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.12.8.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-driver_2.12\\jars\\mongo-scala-driver_2.12-2.8.0.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-bson_2.12\\jars\\mongo-scala-bson_2.12-2.8.0.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb\\mongodb-driver-async\\jars\\mongodb-driver-async-3.12.0.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb\\bson\\jars\\bson-3.12.0.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb\\mongodb-driver-core\\jars\\mongodb-driver-core-3.12.0.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.12.8.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upickle_2.12\\jars\\upickle_2.12-0.9.5.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\ujson_2.12\\jars\\ujson_2.12-0.9.5.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upickle-core_2.12\\jars\\upickle-core_2.12-0.9.5.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang.modules\\scala-collection-compat_2.12\\bundles\\scala-collection-compat_2.12-2.0.0.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upack_2.12\\jars\\upack_2.12-0.9.5.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upickle-implicits_2.12\\jars\\upickle-implicits_2.12-0.9.5.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\os-lib_2.12\\jars\\os-lib_2.12-0.7.8.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\geny_2.12\\jars\\geny_2.12-0.6.10.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\org.scalatest\\scalatest_2.12\\bundles\\scalatest_2.12-3.0.8.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\org.scalactic\\scalactic_2.12\\bundles\\scalactic_2.12-3.0.8.jar",
+            "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.12\\bundles\\scala-xml_2.12-1.2.0.jar"
+        ],
+        "out": "C:\\Users\\17577\\Git_Files\\project_0_files\\.bloop\\root",
+        "classesDir": "C:\\Users\\17577\\Git_Files\\project_0_files\\.bloop\\root\\scala-2.12\\test-classes",
+        "resources": [
+            "C:\\Users\\17577\\Git_Files\\project_0_files\\src\\test\\resources",
+            "C:\\Users\\17577\\Git_Files\\project_0_files\\target\\scala-2.12\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.8",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang\\scala-compiler\\jars\\scala-compiler-2.12.8.jar",
+                "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.12.8.jar",
+                "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.12.8.jar",
+                "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.12\\bundles\\scala-xml_2.12-1.0.6.jar",
+                "C:\\Users\\17577\\.ivy2\\cache\\jline\\jline\\jars\\jline-2.14.6.jar"
+            ],
+            "analysis": "C:\\Users\\17577\\Git_Files\\project_0_files\\target\\streams\\test\\bloopAnalysisOut\\$global\\streams\\inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-11.0.12",
+                "options": [
+                    "-Duser.dir=C:\\Users\\17577\\Git_Files\\project_0_files"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.8",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang\\scala-library\\jars\\scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang\\scala-library\\srcs\\scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb.scala",
+                    "name": "mongo-scala-driver_2.12",
+                    "version": "2.8.0",
+                    "artifacts": [
+                        {
+                            "name": "mongo-scala-driver_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-driver_2.12\\jars\\mongo-scala-driver_2.12-2.8.0.jar"
+                        },
+                        {
+                            "name": "mongo-scala-driver_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-driver_2.12\\srcs\\mongo-scala-driver_2.12-2.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb.scala",
+                    "name": "mongo-scala-bson_2.12",
+                    "version": "2.8.0",
+                    "artifacts": [
+                        {
+                            "name": "mongo-scala-bson_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-bson_2.12\\jars\\mongo-scala-bson_2.12-2.8.0.jar"
+                        },
+                        {
+                            "name": "mongo-scala-bson_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb.scala\\mongo-scala-bson_2.12\\srcs\\mongo-scala-bson_2.12-2.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "mongodb-driver-async",
+                    "version": "3.12.0",
+                    "artifacts": [
+                        {
+                            "name": "mongodb-driver-async",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb\\mongodb-driver-async\\jars\\mongodb-driver-async-3.12.0.jar"
+                        },
+                        {
+                            "name": "mongodb-driver-async",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb\\mongodb-driver-async\\srcs\\mongodb-driver-async-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "bson",
+                    "version": "3.12.0",
+                    "artifacts": [
+                        {
+                            "name": "bson",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb\\bson\\jars\\bson-3.12.0.jar"
+                        },
+                        {
+                            "name": "bson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb\\bson\\srcs\\bson-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mongodb",
+                    "name": "mongodb-driver-core",
+                    "version": "3.12.0",
+                    "artifacts": [
+                        {
+                            "name": "mongodb-driver-core",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb\\mongodb-driver-core\\jars\\mongodb-driver-core-3.12.0.jar"
+                        },
+                        {
+                            "name": "mongodb-driver-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.mongodb\\mongodb-driver-core\\srcs\\mongodb-driver-core-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.8",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\jars\\scala-reflect-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang\\scala-reflect\\srcs\\scala-reflect-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle_2.12",
+                    "version": "0.9.5",
+                    "artifacts": [
+                        {
+                            "name": "upickle_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upickle_2.12\\jars\\upickle_2.12-0.9.5.jar"
+                        },
+                        {
+                            "name": "upickle_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upickle_2.12\\srcs\\upickle_2.12-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "ujson_2.12",
+                    "version": "0.9.5",
+                    "artifacts": [
+                        {
+                            "name": "ujson_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\ujson_2.12\\jars\\ujson_2.12-0.9.5.jar"
+                        },
+                        {
+                            "name": "ujson_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\ujson_2.12\\srcs\\ujson_2.12-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-core_2.12",
+                    "version": "0.9.5",
+                    "artifacts": [
+                        {
+                            "name": "upickle-core_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upickle-core_2.12\\jars\\upickle-core_2.12-0.9.5.jar"
+                        },
+                        {
+                            "name": "upickle-core_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upickle-core_2.12\\srcs\\upickle-core_2.12-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.12",
+                    "version": "2.0.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang.modules\\scala-collection-compat_2.12\\bundles\\scala-collection-compat_2.12-2.0.0.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang.modules\\scala-collection-compat_2.12\\srcs\\scala-collection-compat_2.12-2.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upack_2.12",
+                    "version": "0.9.5",
+                    "artifacts": [
+                        {
+                            "name": "upack_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upack_2.12\\jars\\upack_2.12-0.9.5.jar"
+                        },
+                        {
+                            "name": "upack_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upack_2.12\\srcs\\upack_2.12-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-implicits_2.12",
+                    "version": "0.9.5",
+                    "artifacts": [
+                        {
+                            "name": "upickle-implicits_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upickle-implicits_2.12\\jars\\upickle-implicits_2.12-0.9.5.jar"
+                        },
+                        {
+                            "name": "upickle-implicits_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\upickle-implicits_2.12\\srcs\\upickle-implicits_2.12-0.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "os-lib_2.12",
+                    "version": "0.7.8",
+                    "artifacts": [
+                        {
+                            "name": "os-lib_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\os-lib_2.12\\jars\\os-lib_2.12-0.7.8.jar"
+                        },
+                        {
+                            "name": "os-lib_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\os-lib_2.12\\srcs\\os-lib_2.12-0.7.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.12",
+                    "version": "0.6.10",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\geny_2.12\\jars\\geny_2.12-0.6.10.jar"
+                        },
+                        {
+                            "name": "geny_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\com.lihaoyi\\geny_2.12\\srcs\\geny_2.12-0.6.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.12",
+                    "version": "3.0.8",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scalatest\\scalatest_2.12\\bundles\\scalatest_2.12-3.0.8.jar"
+                        },
+                        {
+                            "name": "scalatest_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scalatest\\scalatest_2.12\\srcs\\scalatest_2.12-3.0.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.0.8",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scalactic\\scalactic_2.12\\bundles\\scalactic_2.12-3.0.8.jar"
+                        },
+                        {
+                            "name": "scalactic_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scalactic\\scalactic_2.12\\srcs\\scalactic_2.12-3.0.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.12\\bundles\\scala-xml_2.12-1.2.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\17577\\.ivy2\\cache\\org.scala-lang.modules\\scala-xml_2.12\\srcs\\scala-xml_2.12-1.2.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
