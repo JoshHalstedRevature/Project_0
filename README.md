@@ -1,4 +1,23 @@
-This document is written in order to provide the user instructions on how to utilize the Project0ScalaCode.scala file.
+# PROJECT NAME
+
+## Project Description
+
+This project is intended to take a file consisting of JSON strings (the file should be located in the resources/ folder) and upload them to MongoDB into a database table. From there, the user is free to perform any actions on the data uploaded.
+
+
+## Technologies Used
+
+* Scala - version 2.12
+* SBT - version 1.0
+* MongoDB - version 4.4
+
+## Getting Started
+   
+### Git Commands
+
+git clone https://github.com/JoshHalstedRevature/Project_0
+
+### Setup
 
 First things first: save the JSON file into the src/test/resources folder. 
 
@@ -6,8 +25,11 @@ Then, compile and run the code in sbt. Type in the name of the file (with the ".
 
 If there are "error" messages afterwards, it implies that the collection name is already taken. Recompile and rerun the Scala file, and provide a different collection name.
 
+Open a command prompt and initiate mongo. From there, you should be able to access the newly created database and table. 
 
+## Usage
 
+Below are a list of MongoDB commands that can be performed in a separate shell:
 
 *******************************MongoDB Commands**********************************************
 
@@ -117,3 +139,13 @@ db.Thermal.aggregate([
     {   $sort: {"Moderating Ratio": -1}}
     ]
     ).pretty()
+
+
+To-do list:
+* Implement a CLI so that the user does not have to switch from a SBT shell to a MongoDB shell (via the Command Prompt)
+
+
+## License
+
+This project does not require a special license.
+
